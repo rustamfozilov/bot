@@ -2,6 +2,7 @@ package mail
 
 import (
 	"github.com/emersion/go-imap"
+	_ "github.com/emersion/go-imap"
 	"github.com/spf13/viper"
 	"github.com/ssharifzoda/bot/internal/service"
 	"github.com/ssharifzoda/bot/internal/types"
@@ -70,8 +71,13 @@ func EMailSystem(ch chan types.Response, s *service.Service) {
 		}
 		//Пользователь решил прочитать непрочитанные сообщения и вдруг ему приходит новое сообщение и новое тоже прочтет
 		if resp.UnseenMsgCount < user.UnseenMsgCount && resp.TotalMsgCount > user.TotalMsgCount {
-			if err := UpdateMsgCounts(resp.UserId, resp.UnseenMsgCount, resp.
-
+			if err := UpdateMsgCounts(resp.UserId, resp.UnseenMsgCount, resp.TotalMsgCount, s); err != nil {
+				log.Print(err)
+			}
+			continue
+		}
+	}
+}
 func Connector(user *types.Users) types.Response {
 	if user.MailLogin == "" || user.MailPassword == "" || user.UserId == 0 || user.MailService == "" {
 		return types.Response{}
