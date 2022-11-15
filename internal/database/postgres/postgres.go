@@ -3,13 +3,14 @@ package postgres
 import (
 	"fmt"
 	"github.com/spf13/viper"
+	"github.com/ssharifzoda/bot/pkg/logging"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"log"
 	"os"
 )
 
 func NewPostgresGorm() (*gorm.DB, error) {
+	log := logging.GetLogger()
 	Host := viper.GetString("db.host")
 	Port := viper.GetUint16("db.port")
 	Username := viper.GetString("db.username")
@@ -22,8 +23,7 @@ func NewPostgresGorm() (*gorm.DB, error) {
 		log.Printf("%s GetPostgresConnection -> Open error: ", err.Error())
 		return nil, err
 	}
-
-	log.Println("Postgres Connection success: ", Host)
+	log.Info("Postgres Connection success: ", Host)
 
 	return conn, nil
 }

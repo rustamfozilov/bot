@@ -4,4 +4,4 @@ db:
     Username: "app"
     DBName: "postgres"
 
-refreshMail: 40s
+refreshMail: 30s

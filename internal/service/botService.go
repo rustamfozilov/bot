@@ -19,7 +19,7 @@ func (b *BotService) RegisterUsernames(userid int64, userName string) (string, e
 
 	return b.db.RegisterUsernames(userid, userName)
 }
-func (b *BotService) RegisterPassword(userid int64, password string) (string, string, error) {
+func (b *BotService) RegisterPassword(userid int64, password string) (string, error) {
 	pass := Hash(password)
 	return b.db.RegisterPassword(userid, pass)
 }

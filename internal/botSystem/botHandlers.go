@@ -2,14 +2,16 @@ package botSystem
 
 import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"log"
+	"github.com/ssharifzoda/bot/pkg/logging"
 )
+
+var logger *logging.Logger
 
 func BotCommandHandler(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
 	msg := tgbotapi.NewMessage(update.Message.Chat.ID, "")
 	switch update.Message.Command() {
 	case "command1":
-		msg.Text = "Напишите мне приветсвие для регистрации: Салом"
+		msg.Text = "Напишите мне приветствие для регистрации: Салом"
 
 	case "command2":
 		msg.Text = "Отправь свой логин от почти в следующем виде\n" +
@@ -19,6 +21,6 @@ func BotCommandHandler(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
 			"Пример: password - 6552856sc"
 	}
 	if _, err := bot.Send(msg); err != nil {
-		log.Print(err)
+		logger.Error(err)
 	}
 }

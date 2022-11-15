@@ -11,7 +11,7 @@ import (
 	"github.com/ssharifzoda/bot/internal/mail"
 	"github.com/ssharifzoda/bot/internal/service"
 	"github.com/ssharifzoda/bot/internal/types"
-	"log"
+	"github.com/ssharifzoda/bot/pkg/logging"
 	"os"
 )
 
@@ -19,11 +19,12 @@ import (
 var mailResponseChan chan types.Response
 
 func main() {
+	logger := logging.GetLogger()
 	if err := initConfig(); err != nil {
-		log.Fatalf("error initializing configs: %s", err.Error())
+		logger.Fatalf("error initializing configs: %s", err.Error())
 	}
 	if err := godotenv.Load(); err != nil {
-		log.Fatalf("error initializing env value: %s", err.Error())
+		logger.Fatalf("error initializing env value: %s", err.Error())
 	}
 	conn, _ := postgres.NewPostgresGorm()
 	db := database.NewDatabase(conn)
@@ -40,12 +41,13 @@ func initConfig() error {
 }
 
 func RunBot(s *service.Service, ch chan types.Response) {
+	logger := logging.GetLogger()
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TG_TOKEN"))
 	if err != nil {
-		log.Panic(err)
+		logger.Fatalf("Invalid token: %s", err)
 	}
-	bot.Debug = true
-	log.Printf("Authorized on account %s", bot.Self.UserName)
+	bot.Debug = false
+	logger.Info("Authorized on account %s", bot.Self.UserName)
 	var ucfg = tgbotapi.NewUpdate(0)
 	ucfg.Timeout = 60
 	updates := bot.GetUpdatesChan(ucfg)
@@ -55,8 +57,8 @@ func RunBot(s *service.Service, ch chan types.Response) {
 			botSystem.BotCommandHandler(update, bot)
 			botSystem.BotLogicCommands(bot, update, s)
 		case r := <-ch:
-			response := fmt.Sprintf("У вас новых сообщений: %d. \n Последнее сообщение от: %s. Текст: %s",
-				r.UnseenMsgCount, r.From, r.Body)
+			response := fmt.Sprintf("У вас новое письмо: \n От: %s. \n Текст: %s",
+				r.From, r.Body)
 			msg := tgbotapi.NewMessage(int64(r.UserId), response)
 			bot.Send(msg)
 		}

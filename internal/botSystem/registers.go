@@ -3,13 +3,12 @@ package botSystem
 import (
 	"errors"
 	"github.com/ssharifzoda/bot/internal/service"
-	"log"
 )
 
 func RegisterUser(userId int64, s *service.Service) (string, error) {
 	text, err := s.Bot.RegisterUser(userId)
 	if err != nil {
-		log.Println(err)
+		logger.Error(err)
 		return "", err
 	}
 
@@ -21,19 +20,17 @@ func RegisterUsernames(userId int64, username string, s *service.Service) string
 	}
 	text, err := s.Bot.RegisterUsernames(userId, username)
 	if err != nil {
-		log.Println(err)
+		logger.Error(err)
 		return err.Error()
 	}
 	return text
 }
 func RegisterPassword(userId int64, password string, s *service.Service) string {
-	text, username, err := s.Bot.RegisterPassword(userId, password)
+	text, err := s.Bot.RegisterPassword(userId, password)
 	if err != nil {
-		log.Println(err)
+		logger.Error(err)
 		return err.Error()
 	}
-	log.Println(username)
-
 	return text
 }
 
