@@ -57,10 +57,14 @@ func RunBot(s *service.Service, ch chan types.Response) {
 			botSystem.BotCommandHandler(update, bot)
 			botSystem.BotLogicCommands(bot, update, s)
 		case r := <-ch:
-			response := fmt.Sprintf("У вас новое письмо: \n От: %s. \n Текст: %s",
+			response := fmt.Sprintf("У вас новое письмо: \n От: %s\n Текст: %s",
 				r.From, r.Body)
 			msg := tgbotapi.NewMessage(int64(r.UserId), response)
-			bot.Send(msg)
+			_, err := bot.Send(msg)
+			if err != nil {
+				logger.Println(err)
+				return
+			}
 		}
 	}
 }

@@ -20,7 +20,7 @@ func NewPostgresGorm() (*gorm.DB, error) {
 		Host, Username, Password, DBName, Port)
 	conn, err := gorm.Open(postgres.Open(connString))
 	if err != nil {
-		log.Printf("%s GetPostgresConnection -> Open error: ", err.Error())
+		log.Infof("%s GetPostgresConnection -> Open error: ", err.Error())
 		return nil, err
 	}
 	log.Info("Postgres Connection success: ", Host)

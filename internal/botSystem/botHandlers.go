@@ -5,9 +5,8 @@ import (
 	"github.com/ssharifzoda/bot/pkg/logging"
 )
 
-var logger *logging.Logger
-
 func BotCommandHandler(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
+	log := logging.GetLogger()
 	msg := tgbotapi.NewMessage(update.Message.Chat.ID, "")
 	switch update.Message.Command() {
 	case "command1":
@@ -21,6 +20,6 @@ func BotCommandHandler(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
 			"Пример: password - 6552856sc"
 	}
 	if _, err := bot.Send(msg); err != nil {
-		logger.Error(err)
+		log.Println(err)
 	}
 }
