@@ -11,6 +11,7 @@ import (
 
 func NewPostgresGorm() (*gorm.DB, error) {
 	log := logging.GetLogger()
+
 	Host := viper.GetString("db.host")
 	Port := viper.GetUint16("db.port")
 	Username := viper.GetString("db.username")
@@ -24,6 +25,5 @@ func NewPostgresGorm() (*gorm.DB, error) {
 		return nil, err
 	}
 	log.Info("Postgres Connection success: ", Host)
-
 	return conn, nil
 }

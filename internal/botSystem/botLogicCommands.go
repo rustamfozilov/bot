@@ -16,6 +16,15 @@ func BotLogicCommands(bot *tgbotapi.BotAPI, update tgbotapi.Update, s *service.S
 	for _, val := range sliceStr {
 		switch val {
 		case "Салом":
+			valid, err := UserValidate(sliceStr, s)
+			if err != nil {
+				log.Println(err)
+				t := tgbotapi.NewMessage(userId, valid)
+				if _, err := bot.Send(t); err != nil {
+					log.Println(err)
+				}
+				continue
+			}
 			msg, err := RegisterUser(userId, s)
 			if err != nil {
 				log.Println(err)
@@ -25,12 +34,30 @@ func BotLogicCommands(bot *tgbotapi.BotAPI, update tgbotapi.Update, s *service.S
 				log.Println(err)
 			}
 		case "password":
+			valid, err := UserValidate(sliceStr, s)
+			if err != nil {
+				log.Println(err)
+				t := tgbotapi.NewMessage(userId, valid)
+				if _, err := bot.Send(t); err != nil {
+					log.Println(err)
+				}
+				continue
+			}
 			res := RegisterPassword(userId, sliceStr[1], s)
 			t := tgbotapi.NewMessage(userId, res)
 			if _, err := bot.Send(t); err != nil {
 				log.Println(err)
 			}
 		case "login":
+			valid, err := UserValidate(sliceStr, s)
+			if err != nil {
+				log.Println(err)
+				t := tgbotapi.NewMessage(userId, valid)
+				if _, err := bot.Send(t); err != nil {
+					log.Println(err)
+				}
+				continue
+			}
 			userId = update.Message.From.ID
 			res := RegisterUsernames(userId, sliceStr[1], s)
 			t := tgbotapi.NewMessage(userId, res)

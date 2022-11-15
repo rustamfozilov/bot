@@ -11,7 +11,6 @@ func BotCommandHandler(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
 	switch update.Message.Command() {
 	case "command1":
 		msg.Text = "Напишите мне приветствие для регистрации: Салом"
-
 	case "command2":
 		msg.Text = "Отправь свой логин от почти в следующем виде\n" +
 			"Пример: login - test@gmail.com"

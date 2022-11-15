@@ -19,7 +19,7 @@ func UpdateMsgCounts(userID, unseenMsg, totalMsg int, s *service.Service) error 
 	log := logging.GetLogger()
 	err := s.Mail.UpdateCounts(userID, unseenMsg, totalMsg)
 	if err != nil {
-		log.Error(err)
+		log.Println(err)
 		return err
 	}
 	return nil

@@ -1,0 +1,26 @@
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 26","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 23","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"EOF"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"EOF"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"EOF"}
