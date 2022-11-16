@@ -29,7 +29,7 @@ func main() {
 	conn, _ := postgres.NewPostgresGorm()
 	db := database.NewDatabase(conn)
 	src := service.NewService(db)
-	mailResponseChan = make(chan types.Response)
+	mailResponseChan = make(chan types.Response, 5)
 	go mail.GetNewMails(src, mailResponseChan)
 	RunBot(src, mailResponseChan)
 }
@@ -63,7 +63,7 @@ func RunBot(s *service.Service, ch chan types.Response) {
 			_, err := bot.Send(msg)
 			if err != nil {
 				logger.Println(err)
-				return
+				continue
 			}
 		}
 	}

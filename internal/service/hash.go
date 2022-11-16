@@ -1,20 +1,32 @@
 package service
 
 import (
-	"crypto/sha1"
-	"crypto/sha512"
+	"crypto/aes"
+	"encoding/hex"
 	"fmt"
-	"strings"
+	"os"
 )
 
 func Hash(s string) string {
-	salt := sha1.New()
-	h := sha512.New384()
-	p := fmt.Sprintf("%xо%sо%x", h.Sum([]byte(s)), s, salt.Sum([]byte(s)))
-	return p
+	key := os.Getenv("KEY")
+	c, err := aes.NewCipher([]byte(key))
+	if err != nil {
+		fmt.Println(err)
+	}
+	msgByte := make([]byte, len(s))
+	c.Encrypt(msgByte, []byte(s))
+	return hex.EncodeToString(msgByte)
 }
 
 func DeHash(s string) string {
-	p := strings.Split(s, "о")
-	return p[1]
+	txt, _ := hex.DecodeString(s)
+	key := os.Getenv("KEY")
+	c, err := aes.NewCipher([]byte(key))
+	if err != nil {
+		fmt.Println(err)
+	}
+	msgByte := make([]byte, len(txt))
+	c.Decrypt(msgByte, []byte(txt))
+	msg := string(msgByte[:])
+	return msg
 }

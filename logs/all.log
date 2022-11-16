@@ -24,3 +24,295 @@
 {"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"EOF"}
 {"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"EOF"}
 {"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"EOF"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 47","func":"main.RunBot()","level":"fatal","msg":"Invalid token: Post \"https://api.telegram.org/bot5668661194:AAHzHp7sP9mQx40ETDWGBPGV4MAqrDWuBos/getMe\": read tcp 192.168.119.133:56938-\u003e149.154.167.220:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailSpliter.go: 29","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"dial tcp: lookup imap.mail.ru: no such host"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.mail.ru: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.mail.ru: no such host"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.gmail.com: no such host"}
+{"file":"mailSpliter.go: 29","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"dial tcp: lookup imap.mail.ru: no such host"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"dial tcp: lookup imap.mail.ru: no such host"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"dial tcp: lookup imap.mail.ru: no such host"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"read tcp 192.168.119.133:57150-\u003e74.125.205.108:993: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"read tcp 192.168.119.133:57150-\u003e74.125.205.108:993: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"read tcp 192.168.119.133:57150-\u003e74.125.205.108:993: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"EOF"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"EOF"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"EOF"}
+{"file":"mailSpliter.go: 14","func":"github.com/ssharifzoda/bot/internal/mail.Gmail()","level":"error","msg":"EOF"}
+{"file":"mailHelper.go: 34","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"EOF"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"EOF"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0001366c0 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc0002941c0 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 30","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 34","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000068090 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc0002a2fc0 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 30","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 34","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000218480 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc00012ee00 0}"}
+{"file":"registers.go: 18","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0002185a0 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc00012e380 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0001e4510 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000166380 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0001e4480 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000164380 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0002345a0 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000118e00 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 59","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).UserIdValidate()","level":"info","msg":"ОШИБКА: ошибка синтаксиса (примерное положение: \"select\") (SQLSTATE 42601)"}
+{"file":"botPostgres.go: 60","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).UserIdValidate()","level":"info","msg":"0"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000218510 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc00012efc0 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 59","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).UserIdValidate()","level":"info","msg":"ОШИБКА: ошибка синтаксиса (примерное положение: \"FROM\") (SQLSTATE 42601)"}
+{"file":"botPostgres.go: 60","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).UserIdValidate()","level":"info","msg":"0"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc00016c630 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc0000c8e00 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 24","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000218510 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000276a80 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 24","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000218480 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc00012e380 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 24","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000218630 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000130c40 0}"}
+{"file":"registers.go: 17","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0001e4510 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc00091e8c0 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"main.go: 65","func":"main.RunBot()","level":"info","msg":"Bad Request: message is too long"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000120630 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc0003421c0 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000120630 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000552380 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000120630 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc000552700 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000120630 ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505) 0 0xc0005528c0 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности \"my_users_user_id_key\" (SQLSTATE 23505)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000136750 ОШИБКА: отношение \"my_users\" не существует (SQLSTATE 42P01) 0 0xc00029ca80 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ОШИБКА: отношение \"my_users\" не существует (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ОШИБКА: отношение \"my_users\" не существует (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ОШИБКА: отношение \"my_users\" не существует (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ОШИБКА: отношение \"my_users\" не существует (SQLSTATE 42P01)"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailSpliter.go: 36","func":"github.com/ssharifzoda/bot/internal/mail.MailRu()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mailHelper.go: 48","func":"github.com/ssharifzoda/bot/internal/mail.Conductor()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"mail.go: 49","func":"github.com/ssharifzoda/bot/internal/mail.Connector()","level":"info","msg":"NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}

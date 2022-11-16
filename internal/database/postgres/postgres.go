@@ -6,6 +6,7 @@ import (
 	"github.com/ssharifzoda/bot/pkg/logging"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
 	"os"
 )
 
@@ -19,7 +20,9 @@ func NewPostgresGorm() (*gorm.DB, error) {
 	DBName := viper.GetString("db.dbname")
 	connString := fmt.Sprintf("host=%s user=%s password=%v dbname=%s port=%d sslmode=disable TimeZone=Asia/Dushanbe",
 		Host, Username, Password, DBName, Port)
-	conn, err := gorm.Open(postgres.Open(connString))
+	conn, err := gorm.Open(postgres.Open(connString), &gorm.Config{
+		Logger: logger.Default.LogMode(logger.Silent),
+	})
 	if err != nil {
 		log.Infof("%s GetPostgresConnection -> Open error: ", err.Error())
 		return nil, err

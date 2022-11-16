@@ -9,7 +9,6 @@ type Bot interface {
 	RegisterUser(userId int64) (string, error)
 	RegisterUsernames(userid int64, userName string) (string, error)
 	RegisterPassword(userid int64, password string) (string, error)
-	UserValidate(userParams []string) (string, error)
 }
 
 type Mail interface {

@@ -13,7 +13,6 @@ func RegisterUser(userId int64, s *service.Service) (string, error) {
 		log.Println(err)
 		return "", err
 	}
-
 	return text, nil
 }
 func RegisterUsernames(userId int64, username string, s *service.Service) string {
@@ -21,6 +20,7 @@ func RegisterUsernames(userId int64, username string, s *service.Service) string
 	if err := Validate(username); err != nil {
 		return err.Error()
 	}
+
 	text, err := s.Bot.RegisterUsernames(userId, username)
 	if err != nil {
 		log.Println(err)

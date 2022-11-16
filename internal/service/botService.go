@@ -23,6 +23,3 @@ func (b *BotService) RegisterPassword(userid int64, password string) (string, er
 	pass := Hash(password)
 	return b.db.RegisterPassword(userid, pass)
 }
-func (b *BotService) UserValidate(userParams []string) (string, error) {
-	return b.db.UserValidate(userParams)
-}

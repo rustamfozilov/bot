@@ -50,28 +50,3 @@ func (b *BotPostgres) RegisterPassword(userid int64, password string) (string, e
 	msg := "Всё. Теперь я буду вас оповещать о новых письмах"
 	return msg, nil
 }
-
-func (b *BotPostgres) UserValidate(userParams []string) (string, error) {
-	log := logging.GetLogger()
-	switch userParams[0] {
-	case "Салом":
-		userId := 0
-		if err := b.conn.Raw("select id from my_users where user_id = ?", userParams[1]); err.Error != nil {
-			log.Println(err.Error)
-			err.Scan(&userId)
-			if userId > 0 {
-				return "You already registered", nil
-			}
-		}
-	case "login":
-		userId := 0
-		if err := b.conn.Raw("select id from my_users where mail_login = ?", userParams[1]); err.Error != nil {
-			log.Println(err.Error)
-			err.Scan(&userId)
-			if userId > 0 {
-				return "You already registered", nil
-			}
-		}
-	}
-	return "", nil
-}
