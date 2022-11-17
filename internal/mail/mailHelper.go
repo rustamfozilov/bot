@@ -84,11 +84,25 @@ func GetBodyMassage(mbox *imap.MailboxStatus, c *client.Client, countMsg int) []
 		}
 		r.From = m.Header.Get("From")
 		mr := m.MultipartReader()
-		defer mr.Close()
+		if mr == nil {
+			return nil
+		}
+		defer func(mr message.MultipartReader) {
+			err := mr.Close()
+			if err != nil {
+				log.Println(err)
+				return
+			}
+		}(mr)
 		for {
 			p, err := mr.NextPart()
+			defer func() {
+				if err := recover(); err != nil {
+					log.Println("panic occurred: ", err)
+				}
+			}() //Вероятное место возникновение паники, поэтому сделан перехват паники
 			if err == io.EOF {
-				return nil
+				break
 			}
 			contentType, _, _ := p.Header.ContentType()
 			if contentType == "text/plain" {
@@ -97,8 +111,8 @@ func GetBodyMassage(mbox *imap.MailboxStatus, c *client.Client, countMsg int) []
 					log.Println(err)
 				}
 				r.Body = string(body)
+				responses = append(responses, r)
 			}
-			responses = append(responses, r)
 		}
 	}
 	return responses
@@ -143,14 +157,15 @@ func CountMsgAnalyze(user *types.Users, unseenMsg, totalMsg int, s *service.Serv
 	}
 	//Момент, когда пользователю пришли новые сообщения, он зашёл, прочитал некоторые из них,
 	// но, некоторое количество так и оставил непрочитанным и сразу же приходит ещё одно новое сообщение
-	//if unseenMsg > user.UnseenMsgCount && user.TotalMsgCount > totalMsg {
-	//	totalDiff := totalMsg - user.TotalMsgCount
-	//	unseenDiff := unseenMsg - user.UnseenMsgCount
-	//	if totalDiff > unseenDiff {
-	//		if err := UpdateMsgCounts(user.UserId, unseenMsg-totalDiff, totalMsg, s); err != nil {
-	//			log.Print(err)
-	//		}
-	//		return totalDiff
-	//	}
+	if unseenMsg > user.UnseenMsgCount && user.TotalMsgCount > totalMsg {
+		totalDiff := totalMsg - user.TotalMsgCount
+		unseenDiff := unseenMsg - user.UnseenMsgCount
+		if totalDiff > unseenDiff {
+			if err := UpdateMsgCounts(user.UserId, unseenMsg-totalDiff, totalMsg, s); err != nil {
+				log.Print(err)
+			}
+			return totalDiff
+		}
+	}
 	return 0
 }

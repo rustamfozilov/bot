@@ -29,7 +29,7 @@ func main() {
 	conn, _ := postgres.NewPostgresGorm()
 	db := database.NewDatabase(conn)
 	src := service.NewService(db)
-	mailResponseChan = make(chan types.Response, 5)
+	mailResponseChan = make(chan types.Response)
 	go mail.GetNewMails(src, mailResponseChan)
 	RunBot(src, mailResponseChan)
 }
@@ -46,7 +46,7 @@ func RunBot(s *service.Service, ch chan types.Response) {
 	if err != nil {
 		logger.Fatalf("Invalid token: %s", err)
 	}
-	bot.Debug = false
+	bot.Debug = viper.GetBool("bot.debug")
 	logger.Info("Authorized on account %s", bot.Self.UserName)
 	var ucfg = tgbotapi.NewUpdate(0)
 	ucfg.Timeout = 60
@@ -57,7 +57,7 @@ func RunBot(s *service.Service, ch chan types.Response) {
 			botSystem.BotCommandHandler(update, bot)
 			botSystem.BotLogicCommands(bot, update, s)
 		case r := <-ch:
-			response := fmt.Sprintf("У вас новое письмо: \n От: %s\n Текст: %s",
+			response := fmt.Sprintf("У вас новое письмо:\nОт: %s\nТекст: %s",
 				r.From, r.Body)
 			msg := tgbotapi.NewMessage(int64(r.UserId), response)
 			_, err := bot.Send(msg)
