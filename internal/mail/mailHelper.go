@@ -120,40 +120,22 @@ func GetBodyMassage(mbox *imap.MailboxStatus, c *client.Client, countMsg int) []
 
 func CountMsgAnalyze(user *types.Users, unseenMsg, totalMsg int, s *service.Service) int {
 	log := logging.GetLogger()
-	//Первый раз когда регистрируются данные в базу данных
+	//Первое обновление почты пользователя
 	if user.UnseenMsgCount == 0 && user.TotalMsgCount == 0 {
 		if err := UpdateMsgCounts(user.UserId, unseenMsg, totalMsg, s); err != nil {
-			log.Print(err)
+			log.Println(err)
 		}
 		return 0
 	}
-	//Пользователь удалил часть своих писем
-	if totalMsg < user.TotalMsgCount {
-		if err := UpdateMsgCounts(user.UserId, unseenMsg, totalMsg, s); err != nil {
-			log.Print(err)
-		}
-		return 0
-	}
-	//Пользователь прочитал какое - то количество сообщений у себя
-	if unseenMsg < user.UnseenMsgCount && totalMsg == user.TotalMsgCount {
-		if err := UpdateMsgCounts(user.UserId, unseenMsg, totalMsg, s); err != nil {
-			log.Print(err)
-		}
-		return 0
-	}
-	// Новое сообщение
-	if unseenMsg > user.UnseenMsgCount {
+	// У пользователя новое/новые письма
+	if unseenMsg > user.UnseenMsgCount && totalMsg > user.TotalMsgCount {
 		if err := UpdateMsgCounts(user.UserId, user.UnseenMsgCount, totalMsg, s); err != nil {
-			log.Print(err)
+			log.Println(err)
 		}
 		return unseenMsg - user.UnseenMsgCount
 	}
-	//Пользователь решил прочитать непрочитанные сообщения и вдруг ему приходит новое сообщение и новое тоже прочтет
-	if unseenMsg < user.UnseenMsgCount && totalMsg > user.TotalMsgCount {
-		if err := UpdateMsgCounts(user.UserId, unseenMsg, totalMsg, s); err != nil {
-			log.Print(err)
-		}
-		return 0
+	if err := UpdateMsgCounts(user.UserId, unseenMsg, totalMsg, s); err != nil {
+		log.Println(err)
 	}
 	return 0
 }
