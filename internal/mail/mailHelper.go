@@ -155,17 +155,5 @@ func CountMsgAnalyze(user *types.Users, unseenMsg, totalMsg int, s *service.Serv
 		}
 		return 0
 	}
-	//Момент, когда пользователю пришли новые сообщения, он зашёл, прочитал некоторые из них,
-	// но, некоторое количество так и оставил непрочитанным и сразу же приходит ещё одно новое сообщение
-	if unseenMsg > user.UnseenMsgCount && user.TotalMsgCount > totalMsg {
-		totalDiff := totalMsg - user.TotalMsgCount
-		unseenDiff := unseenMsg - user.UnseenMsgCount
-		if totalDiff > unseenDiff {
-			if err := UpdateMsgCounts(user.UserId, unseenMsg-totalDiff, totalMsg, s); err != nil {
-				log.Print(err)
-			}
-			return totalDiff
-		}
-	}
 	return 0
 }
