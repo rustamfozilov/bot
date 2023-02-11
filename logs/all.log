@@ -316,3 +316,204 @@
 {"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
 {"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: localhost"}
 {"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 27","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"failed to connect to `host=localhost user=app database=postgres`: server error (\ufffd\ufffd\ufffd\ufffd\ufffd: \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \"app\" \ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd (\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd) (SQLSTATE 28P01)) GetPostgresConnection -\u003e Open error: "}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0000c8e00 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc000174540 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc000432000 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0000d0000 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178510 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc00040c380 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botLogicCommands.go: 14","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Салом"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc000348000 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 26","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"read tcp 127.0.0.1:12346-\u003e192.168.150.185:5433: wsarecv: An established connection was aborted by the software in your host machine."}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"read tcp 127.0.0.1:12346-\u003e192.168.150.185:5433: wsarecv: An established connection was aborted by the software in your host machine."}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"failed to connect to `host=192.168.150.185 user=user_b2b database=db_b2b`: failed to receive message (read tcp 127.0.0.1:5732-\u003e192.168.150.185:5433: wsarecv: An existing connection was forcibly closed by the remote host.)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"failed to connect to `host=192.168.150.185 user=user_b2b database=db_b2b`: failed to receive message (read tcp 127.0.0.1:5732-\u003e192.168.150.185:5433: wsarecv: An existing connection was forcibly closed by the remote host.)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0003ca000 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0001b8480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0001b08c0 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000138480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc00032a000 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"5017993293"}
+{"file":"botLogicCommands.go: 15","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Салом"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc000468380 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 23","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 27","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 51","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 10","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"2"}
+{"file":"botHandlers.go: 23","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botLogicCommands.go: 19","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"3"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000170480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0003b0000 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 26","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 51","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 10","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"2"}
+{"file":"botHandlers.go: 23","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botLogicCommands.go: 19","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"3"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0004aa380 0}"}
+{"file":"registers.go: 13","func":"github.com/ssharifzoda/bot/internal/botSystem.RegisterUser()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 26","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 51","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 10","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"2"}
+{"file":"botHandlers.go: 23","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botLogicCommands.go: 19","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"3"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000140480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc00046e000 0}"}
+{"file":"botLogicCommands.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 26","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 10","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"...... Гол"}
+{"file":"botHandlers.go: 23","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 19","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"3"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178510 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0001748c0 0}"}
+{"file":"botLogicCommands.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 26","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 14","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"///////////// 5017993293 О"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botHandlers.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotCommandHandler()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"botLogicCommands.go: 19","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Салом"}
+{"file":"botPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc0001ae480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0001a68c0 0}"}
+{"file":"botLogicCommands.go: 22","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 26","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botPostgres.go: 20","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"/////////////////////// 5017993293"}
+{"file":"botPostgres.go: 23","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUser()","level":"info","msg":"\u0026{0xc000178480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0000ea000 0}"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botPostgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database.(*BotPostgres).RegisterUsernames()","level":"info","msg":"\u0026{0xc000140480 ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01) 0 0xc0002c6700 0}"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"mailPostgres.go: 22","func":"github.com/ssharifzoda/bot/internal/database.(*MailPostgres).GetAllUsers()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"mail.go: 27","func":"github.com/ssharifzoda/bot/internal/mail.EMailSystem()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"my_users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}
+{"file":"postgres.go: 30","func":"github.com/ssharifzoda/bot/internal/database/postgres.NewPostgresGorm()","level":"info","msg":"Postgres Connection success: 192.168.150.185"}
+{"file":"main.go: 50","func":"main.RunBot()","level":"info","msg":"Authorized on account %ssin_mail_bot"}
+{"file":"botLogicCommands.go: 21","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"ERROR: relation \"users\" does not exist (SQLSTATE 42P01)"}
+{"file":"botLogicCommands.go: 25","func":"github.com/ssharifzoda/bot/internal/botSystem.BotLogicCommands()","level":"info","msg":"Bad Request: message text is empty"}

@@ -56,6 +56,13 @@ func Conductor(user *types.Users) (*client.Client, error) {
 			return nil, err
 		}
 		return c, nil
+	case "humo.tj":
+		c, err := HumoTj(user)
+		if err != nil {
+			log.Println(err)
+			return nil, err
+		}
+		return c, nil
 	}
 	return nil, nil
 }

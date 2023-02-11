@@ -16,10 +16,8 @@ func NewBotPostgres(conn *gorm.DB) *BotPostgres {
 }
 
 func (b *BotPostgres) RegisterUser(userId int64) (string, error) {
-	log := logging.GetLogger()
-	query := fmt.Sprintf("insert into my_users (user_id) values(?);")
-	if err := b.conn.Exec(query, userId); err.Error != nil {
-		log.Println(err)
+	query := fmt.Sprintf("insert into users (user_id) values(%b);", userId)
+	if err := b.conn.Exec(query); err.Error != nil {
 		return "", err.Error
 	}
 	msg := "Вы успешно прошли регистрацию"

@@ -1,10 +1,10 @@
 db:
-    Host: "localhost"
-    Port: 5432
-    Username: "app"
-    DBName: "postgres"
+    Host: "192.168.150.185"
+    Port: 5433
+    Username: "user_b2b"
+    DBName: "db_b2b"
 
-refreshMail: 40s
+refreshMail: 100s
 
 bot:
     Debug: false

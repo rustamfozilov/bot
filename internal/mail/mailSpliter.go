@@ -54,3 +54,19 @@ func Icloud(user *types.Users) (*client.Client, error) {
 	}
 	return c, nil
 }
+
+func HumoTj(user *types.Users) (*client.Client, error) {
+	log := logging.GetLogger()
+	c, err := client.DialTLS("192.168.0.2:143", nil)
+	if err != nil {
+		log.Println(err)
+		return nil, err
+	}
+	pass := service.DeHash(user.MailPassword)
+	err = c.Login(user.MailLogin, pass)
+	if err != nil {
+		log.Println(err)
+		return nil, err
+	}
+	return c, nil
+}

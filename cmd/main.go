@@ -48,8 +48,8 @@ func RunBot(s *service.Service, ch chan types.Response) {
 	}
 	bot.Debug = viper.GetBool("bot.debug")
 	logger.Info("Authorized on account %s", bot.Self.UserName)
-	var ucfg = tgbotapi.NewUpdate(0)
-	ucfg.Timeout = 60
+	var ucfg = tgbotapi.NewUpdate(1)
+	ucfg.Timeout = 40
 	updates := bot.GetUpdatesChan(ucfg)
 	for {
 		select {
