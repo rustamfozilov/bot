@@ -4,7 +4,7 @@ db:
     Username: "user_b2b"
     DBName: "db_b2b"
 
-refreshMail: 100s
+refreshMail: 30s
 
 bot:
     Debug: false

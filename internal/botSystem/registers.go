@@ -47,7 +47,7 @@ func Validate(msg string) error {
 		}
 	}
 	if count < 2 {
-		return errors.New("incorrect username")
+		return errors.New("некорректный адрес почтового ящика")
 	}
 	return nil
 

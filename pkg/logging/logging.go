@@ -7,6 +7,7 @@ import (
 	"os"
 	"path"
 	"runtime"
+	"time"
 )
 
 type writerHook struct {
@@ -51,6 +52,8 @@ func init() {
 			fileName := path.Base(frame.File)
 			return fmt.Sprintf("%s()", frame.Function), fmt.Sprintf("%s: %d", fileName, frame.Line)
 		},
+		DataKey:           time.Now().String(),
+		TimestampFormat:   time.RFC3339,
 		DisableHTMLEscape: false,
 		DisableTimestamp:  true,
 	}
@@ -65,7 +68,7 @@ func init() {
 	log.SetOutput(io.Discard)
 
 	log.AddHook(&writerHook{
-		Writer:    []io.Writer{allFile, os.Stdout},
+		Writer:    []io.Writer{allFile},
 		LogLevels: logrus.AllLevels,
 	})
 	log.SetLevel(logrus.FatalLevel)

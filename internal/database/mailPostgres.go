@@ -17,7 +17,7 @@ func NewMailPostgres(conn *gorm.DB) *MailPostgres {
 func (m *MailPostgres) GetAllUsers() ([]*types.Users, error) {
 	log := logging.GetLogger()
 	var users []*types.Users
-	row := m.conn.Table("my_users").Find(&users)
+	row := m.conn.Table("test_bot_users").Find(&users)
 	if row.Error != nil {
 		log.Println(row.Error)
 	}
@@ -25,8 +25,8 @@ func (m *MailPostgres) GetAllUsers() ([]*types.Users, error) {
 }
 func (m *MailPostgres) UpdateCounts(userId, unseenMsg, totalMsg int) error {
 	log := logging.GetLogger()
-	tx := m.conn.Table("my_users").Where("user_id", userId).Update("unseen_msg_count", unseenMsg)
-	tx = m.conn.Table("my_users").Where("user_id", userId).Update("total_msg_count", totalMsg)
+	tx := m.conn.Table("test_bot_users").Where("user_id", userId).Update("unseen_msg_count", unseenMsg)
+	tx = m.conn.Table("test_bot_users").Where("user_id", userId).Update("total_msg_count", totalMsg)
 	if tx.Error != nil {
 		log.Println(tx.Error)
 		return tx.Error

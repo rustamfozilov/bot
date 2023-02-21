@@ -9,12 +9,12 @@ import (
 
 func Gmail(user *types.Users) (*client.Client, error) {
 	log := logging.GetLogger()
-	c, err := client.DialTLS("imap.gmail.com:993", nil)
+	c, err := client.DialTLS(gmailAddress, nil)
 	if err != nil {
 		log.Error(err)
 		return nil, err
 	}
-	pass := service.DeHash(user.MailPassword)
+	pass, _ := service.DeHash(user.MailPassword)
 	err = c.Login(user.MailLogin, pass)
 	if err != nil {
 		log.Error(err)
@@ -24,13 +24,13 @@ func Gmail(user *types.Users) (*client.Client, error) {
 }
 func MailRu(user *types.Users) (*client.Client, error) {
 	log := logging.GetLogger()
-	c, err := client.DialTLS("imap.mail.ru:993", nil)
+	c, err := client.DialTLS(mailAddress, nil)
 	if err != nil {
 		log.Println(err)
 		return nil, err
 	}
 	login := user.MailLogin + "@" + user.MailService
-	pass := service.DeHash(user.MailPassword)
+	pass, _ := service.DeHash(user.MailPassword)
 	err = c.Login(login, pass)
 	if err != nil {
 		log.Println(err)
@@ -41,12 +41,12 @@ func MailRu(user *types.Users) (*client.Client, error) {
 
 func Icloud(user *types.Users) (*client.Client, error) {
 	log := logging.GetLogger()
-	c, err := client.DialTLS("imap.mail.me.com:993", nil)
+	c, err := client.DialTLS(idcloudAddress, nil)
 	if err != nil {
 		log.Println(err)
 		return nil, err
 	}
-	pass := service.DeHash(user.MailPassword)
+	pass, _ := service.DeHash(user.MailPassword)
 	err = c.Login(user.MailLogin, pass)
 	if err != nil {
 		log.Println(err)
@@ -56,16 +56,16 @@ func Icloud(user *types.Users) (*client.Client, error) {
 }
 
 func HumoTj(user *types.Users) (*client.Client, error) {
-	log := logging.GetLogger()
-	c, err := client.DialTLS("192.168.0.2:143", nil)
+	c, err := client.Dial(humoAddress)
 	if err != nil {
-		log.Println(err)
 		return nil, err
 	}
-	pass := service.DeHash(user.MailPassword)
+	pass, err := service.DeHash(user.MailPassword)
+	if err != nil {
+		return nil, err
+	}
 	err = c.Login(user.MailLogin, pass)
 	if err != nil {
-		log.Println(err)
 		return nil, err
 	}
 	return c, nil

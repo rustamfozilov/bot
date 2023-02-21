@@ -1,4 +1,4 @@
-create table my_users(
+create table test_bot_users(
     id bigserial primary key,
     user_id bigint unique,
     mail_login text,
@@ -9,4 +9,4 @@ create table my_users(
     created_at timestamptz default current_timestamp
 );
 
-drop table my_users;
+drop table test_bot_users;

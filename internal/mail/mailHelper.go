@@ -10,7 +10,6 @@ import (
 	"github.com/ssharifzoda/bot/pkg/logging"
 	_ "github.com/ssharifzoda/bot/pkg/logging"
 	"io"
-	"io/ioutil"
 )
 
 const refreshTimeMail = "refreshmail"
@@ -26,40 +25,35 @@ func UpdateMsgCounts(userID, unseenMsg, totalMsg int, s *service.Service) error 
 }
 
 func Conductor(user *types.Users) (*client.Client, error) {
-	log := logging.GetLogger()
+	//log := logging.GetLogger()
 	switch user.MailService {
 	case "gmail.com":
 		c, err := Gmail(user)
 		if err != nil {
-			log.Println(err)
 			return nil, err
 		}
 		return c, nil
 	case "mail.ru":
 		c, err := MailRu(user)
 		if err != nil {
-			log.Println(err)
 			return nil, err
 		}
 		return c, nil
 	case "inbox.ru":
 		c, err := MailRu(user)
 		if err != nil {
-			log.Println(err)
 			return nil, err
 		}
 		return c, nil
 	case "icloud.com":
 		c, err := Icloud(user)
 		if err != nil {
-			log.Println(err)
 			return nil, err
 		}
 		return c, nil
 	case "humo.tj":
 		c, err := HumoTj(user)
 		if err != nil {
-			log.Println(err)
 			return nil, err
 		}
 		return c, nil
@@ -113,7 +107,7 @@ func GetBodyMassage(mbox *imap.MailboxStatus, c *client.Client, countMsg int) []
 			}
 			contentType, _, _ := p.Header.ContentType()
 			if contentType == "text/plain" {
-				body, err := ioutil.ReadAll(p.Body)
+				body, err := io.ReadAll(p.Body)
 				if err != nil {
 					log.Println(err)
 				}
